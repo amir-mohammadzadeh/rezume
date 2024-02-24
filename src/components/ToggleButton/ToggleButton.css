@@ -1,0 +1,58 @@
+#Toggle-Button {
+    display: none;
+}
+
+.Toggle-Label {
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.line {
+    display: block;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(156 163 175);
+}
+
+:is(.dark .line) {
+    background-color: rgb(71, 85, 105);
+}
+
+.l1 {
+    width: 50%;
+}
+.l2 {
+    width: 80%;
+}
+.l3 {
+    width: 100%;
+}
+
+#Toggle-Button:checked+.Toggle-Label {
+    transform: rotate(180deg);
+}
+
+#Toggle-Button:checked+.Toggle-Label .line {
+    position: absolute;
+    transition: .5s;
+}
+
+#Toggle-Button:checked+.Toggle-Label .l1 {
+    width: 100%;
+    transform: rotate(45deg);
+}
+
+#Toggle-Button:checked+.Toggle-Label .l2 {
+    transform: scale(0);
+    transition-duration: .1s;
+}
+
+#Toggle-Button:checked+.Toggle-Label .l3 {
+    transform: rotate(-45deg);
+}

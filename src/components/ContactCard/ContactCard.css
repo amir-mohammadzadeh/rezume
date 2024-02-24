@@ -1,0 +1,56 @@
+.box-content {
+    position: relative;
+    width: 90%;
+}
+
+.box-label {
+    @apply bg-gray-200 dark:bg-slate-700 xl:dark:bg-sky-700 xl:bg-gray-300 md:dark:bg-slate-700 md:dark:text-indigo-400 sm:bg-gray-200
+}
+
+.box-label {
+    position: absolute;
+    top: -1.2rem;
+    right: calc(50% - 42px);
+    border-radius: 50%;
+    padding: 0.85rem 1.5rem 0 1.5rem;
+}
+
+.box-value {
+    margin-block: 2rem .3rem;
+    text-align: center;
+}
+
+/*    Make them Responcive from here :)  */
+@media screen and (max-width: 1200px) {
+
+    .box-label {
+        top: 0;
+        right: 0;
+        border-radius: 0 1rem 0 100%;
+        padding: .5rem .5rem 1.25rem 1.25rem;
+    }
+
+    .box-value {
+        margin-block: .85rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .box-content {
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .box-label {
+        position: relative;
+        padding: 0;
+    }
+
+    .box-value {
+        flex-grow: 1;
+        margin-top: .3rem;
+    }
+}

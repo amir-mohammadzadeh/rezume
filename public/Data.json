@@ -1,0 +1,168 @@
+{
+    "detailes": {
+        "name": "امیر محمدزاده",
+        "job": "توسعه دهنده فرانت اند",
+        "age": 26,
+        "address": {
+            "ostan": "آذربایجان شرقی",
+            "ads": "مرند"
+        },
+        "marride": "مجرد",
+        "sarbazi": "پایان خدمت",
+        "phoneNumber": "09149718819",
+        "email": "amir.code98@gmail.com",
+        "github": "https://github.com/amir-mohammadzadeh",
+        "linkedin": "https://www.linkedin.com/in/amir-mohammadzadeh-23b864291"
+    },
+    "aboutMe": "من با دو سال تجربه خودآموز در برنامه نویسی، به عنوان یک عاشق برنامه نویسی با تمرکز بر رشد و توسعه مهارت ها هستم. تجربیات گذشته ام در کار تیمی به من کمک کرده اند تا توانایی قوی در این زمینه داشته باشم و همچنین توانایی برقراری روابط مثبت با همکارانم را دارم. هدف اصلی من، افزایش مهارت های خود با حضور در یک محیط کاری پویا و پرچالش است تا بتوانم توانمندی های حرفه ای خود را افزایش داده و به ارزش تیمم اضافه کنم. من به دنبال یادگیری مفاهیم و تکنولوژی های جدید همیشه باقی میمانم و تعهد دارم که به دستاوردهای تیم و سازمانم بیفزایم.",
+    "skills": [
+        {
+            "id": 1,
+            "skill": "HTML / CSS",
+            "value": 3.5
+        },
+        {
+            "id": 2,
+            "skill": "JavaScript",
+            "value": 3.5
+        },
+        {
+            "id": 3,
+            "skill": "React",
+            "value": 3
+        },
+        {
+            "id": 4,
+            "skill": "TypeScript",
+            "value": 1
+        },
+        {
+            "id": 5,
+            "skill": "Tailwind",
+            "value": 2.5
+        },
+        {
+            "id": 6,
+            "skill": "Bootstrap",
+            "value": 2.5
+        },
+        {
+            "id": 7,
+            "skill": "Python",
+            "value": 3.5
+        }
+    ],
+    "records": {
+        "education": [
+            {
+                "id": 1,
+                "degree": "کارشناسی",
+                "field": "رشته مهندسی اپتیک و لیزر",
+                "univercity": "دانشگاه صنعتی ارومیه",
+                "years": "1395 - 1400"
+            },
+            {
+                "id": 2,
+                "degree": "دیپلم",
+                "field": "رشته ریاضی و فیزیک",
+                "univercity": "موسسه آموزش عالی علامه جعفری",
+                "years": "1388 - 1395"
+            }
+        ],
+        "jobs": []
+    },
+    "portfolios": [
+        {
+            "id": 1,
+            "image": "smoda.png",
+            "title": "سایت فروشگاهی تک صفحه ای",
+            "languages": [
+                "HTML/Css",
+                "JavaScript"
+            ],
+            "discription": "یک سایت تک صفحه ای که فقط با HTML,Css و javascript نوشته ام. از اولین پروژه هام هستش. ",
+            "linke": "https://amir-mohammadzadeh.github.io/smodagallery/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/smodagallery"
+        },
+        {
+            "id": 2,
+            "image": "login.png",
+            "title": "صفحه لاگین",
+            "languages": [
+                "HTML/Css",
+                "JavaScript"
+            ],
+            "discription": "ای صفحه دقیقا شبیه صفحه لاگین قبلی میباشد با این تفاوت که کلا با HTML و javascript خالی و بدون ریکت نوشته ام.",
+            "linke": "https://amir-mohammadzadeh.github.io/login-page/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/login-page"
+        },
+        {
+            "id": 3,
+            "image": "galeb.png",
+            "title": "قالب سایت",
+            "languages": [
+                "JavaScript",
+                "React",
+                "HTML/Css"
+            ],
+            "discription": "یک قالب سایت تک صفحه ای میباشد که از روی طرح یک قالب آماده کد نویسی کرده ام.  ",
+            "linke": "https://amir-mohammadzadeh.github.io/first-react/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/first-react"
+        },
+        {
+            "id": 4,
+            "image": "login.png",
+            "title": "صفحه لاگین",
+            "languages": [
+                "JavaScript",
+                "React"
+            ],
+            "discription": "یک صفحه لاگین با امکان ثبت نام و لاگین شدن با مشخصات ثبت شده میباشد. این صفحه دارای دو طرح مختلف برای صفحه نمایش های مبایل و صفحه نمایش های بزرگ است.",
+            "linke": "https://amir-mohammadzadeh.github.io/login-with-react/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/login-with-react"
+        },
+        {
+            "id": 5,
+            "image": "mini-shope.png",
+            "title": "سبد خرید",
+            "languages": [
+                "JavaScript",
+                "React",
+                "Context",
+                "Tailwind",
+                "css"
+            ],
+            "discription": "این پروژه مثل یک سایت فروشگاهی خیلی کوچک و ساده میباشد که کاربر میتواند از بین محصولاتی که از یک api فیک دریافت شده به سبد خرید خود اضافه کند. این پروژه شامل یک صفحه محصولات ، یک صفحه برای نمایش جزيیات محصول و همچنین اضافه کردن آن به سبد خرید، یک صفحه یرای نمایش محتوای سبد خرید و صفحه تکمیل پرداخت که اگر کابر لاگین کرده باشد نمایش داده میشود و در غیر اینصورت کاربر به صفحه لاگین هدایت میشود. در این پروژه نیز برخی از بخش ها با استفاده از کلاس های tailwind و برخی از بخش ها با css خالی استایل دهی کرده ام و کاملا واکنش گرا میباشد. همچنین برای صفحه بندی از Router ریکت استفاده کرده ام.",
+            "linke": "https://amir-mohammadzadeh.github.io/mini-shop/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/mini-shop"
+        },
+        {
+            "id": 6,
+            "image": "multi-step-form.png",
+            "title": "فرم چند مرحله‌ای",
+            "languages": [
+                "TypeScript",
+                "React",
+                "Redux",
+                "Css"
+            ],
+            "discription": "فرم چند مرحله ای یکی از پروژه‌های سایت FrontMentor می‌باشد که من با استفاده از TypeScript  و کتابخانه Redux این پروژه را انجام دادم. همچنین از هوک useForm برای کنترل و مدیریت خطای input‌ ها بهره گرفتم. ",
+            "linke": "https://amir-mohammadzadeh.github.io/multi-step-form/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/multi-step-form"
+        },
+        {
+            "id": 7,
+            "image": "cv.png",
+            "title": " رزومه آنلاین",
+            "languages": [
+                "JavaScript",
+                "React",
+                "Tailwind",
+                "css"
+            ],
+            "discription": "این پروژه رزومه بنده میباشد که به صورت یک سایت spa نوشته ام. در این پروژه برای استایل دهی هم از فریمورک tailwind استفاده کرده ام و هم از css خالی و همچنین برای تفکیک بخش های مختلف از Router ریکت بهره گرفتم.",
+            "linke": "https://amir-mohammadzadeh.github.io/amir.cv/",
+            "sorscode": "https://github.com/amir-mohammadzadeh/amir.cv"
+        }
+    ]
+}

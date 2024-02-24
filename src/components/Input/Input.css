@@ -1,0 +1,74 @@
+.input-content{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .25rem;
+}
+.ta-h{
+    height: 100%;
+}
+.label{
+    align-self: start;
+    font-size: 1.15rem;
+    padding-inline: .85rem;
+    transform: translateY(2.5rem) ;
+    opacity: 0;
+    @apply dark:text-yellow-200  text-sky-700
+}
+.input-content textarea,
+.input-content input{
+    outline: 0 none;
+}
+.textarea,
+.input{
+    width: 100%;
+    background-color: transparent;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #b5b5b5;
+    transition: .3s;
+}
+
+.textarea:focus,
+.input:focus{
+    border-color: #021e78bf ;
+}
+
+:is(.dark .textarea),
+:is(.dark .input){
+    border-color: #64748b;
+}
+:is(.dark .textarea:focus),
+:is(.dark .input:focus){
+    border-color: #78b9b9d9 ;
+}
+
+.textarea:valid ~ .label,
+.input:valid ~ .label{
+    animation: .3s show-label both;
+}
+
+@keyframes show-label {
+    50%{
+        transform: translateY(-1rem);
+        opacity: .7;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .textarea,.input{
+        font-size: 1rem;
+        padding: .25rem;
+    }
+    .label{
+        font-size: 1rem;
+    }
+    .ta-h{
+        height: 10rem;
+    }
+}

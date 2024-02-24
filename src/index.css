@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NotoSans";
+  src: url('../public/Fonts/NotoSansArabict.ttf');
+}
+
+@layer base{
+  html{
+    font-family:  "NotoSans" , Cochin , serif, sans-serif;
+    overflow: auto;
+  }
+  
+  body{
+    @apply  dark:bg-slate-800 dark:text-slate-50 bg-gray-400 overflow-hidden
+  }
+  #root{
+    height: 100dvh;
+    width: 100dvw;
+  }
+  h1{
+    @apply text-4xl font-semibold pb-4 md:text-2xl dark:text-white ;
+  }
+  .scrollbar-none{
+    scrollbar-width: none;
+  }
+  .main{
+    @apply flex-grow w-full h-full overflow-y-auto scrollbar-none lg:px-5
+  }
+}
