@@ -32,15 +32,21 @@ const Contact = () => {
             icon={
               <TelephoneIcon size='32' />
             }
-            value={Details.phoneNumber}
-          />
+          >
+            <a href={`tel:+${Details.phoneNumber.replace('0', '98')}`}>
+              {Details.phoneNumber}
+            </a>
+          </ContactCard>
 
           <ContactCard
             icon={
               <EmailIcon size='32' />
             }
-            value={Details.email}
-          />
+          >
+            <a href={`mailto:${Details.email}`}>
+              {Details.email}
+            </a>
+          </ContactCard>
 
           <ContactCard
             icon={

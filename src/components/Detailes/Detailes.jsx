@@ -46,16 +46,20 @@ const Detailes = () => {
                         <span>
                             شماره:
                         </span>
-                        <span>
-                            {Details.phoneNumber}
+                        <span className="item-link">
+                            <a href='tel:+989149718819'>
+                                {Details.phoneNumber}
+                            </a>
                         </span>
                     </li>
                     <li className="item">
                         <span>
                             ایمیل:
                         </span>
-                        <span>
-                            {Details.email}
+                        <span className="item-link">
+                            <a href="mailto:amir.code98@gmail.com">
+                                {Details.email}
+                            </a>
                         </span>
                     </li>
                     <li className="item">

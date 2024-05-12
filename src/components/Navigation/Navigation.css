@@ -63,16 +63,14 @@
     border-right: 0;
 }
 
-@keyframes show-label {
+@keyframes show-nav-label {
     40% {
-        visibility: visible;
         opacity: 0;
     }
 
     100% {
         transform: translateX(0);
         opacity: 1;
-        visibility: visible;
     }
 }
 
@@ -94,8 +92,10 @@
         display: block;
     }
     .navbar-icon:hover > .link-label {
-        animation: .1s show-label forwards;
+        visibility: visible;
+        animation: .1s show-nav-label forwards;
     }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -106,7 +106,9 @@
         height: 4rem;
         padding-bottom: .25rem;
     }
-
+    .link-label{
+        display: none;
+    }
     .navbar-container {
         flex-direction: row;
         width: 100%;

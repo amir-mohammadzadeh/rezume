@@ -18,6 +18,10 @@
 .box-value {
     margin-block: 2rem .3rem;
     text-align: center;
+    transition: .3s;
+}
+.box-value:has(a:hover){
+    color: #7dd3fc;
 }
 
 /*    Make them Responcive from here :)  */

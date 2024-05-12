@@ -19,6 +19,8 @@
   #root{
     height: 100dvh;
     width: 100dvw;
+    max-width: 100rem;
+    margin-inline: auto;
   }
   h1{
     @apply text-4xl font-semibold pb-4 md:text-2xl dark:text-white ;

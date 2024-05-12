@@ -29,12 +29,12 @@
         {
             "id": 3,
             "skill": "React",
-            "value": 3
+            "value": 3.5
         },
         {
             "id": 4,
             "skill": "TypeScript",
-            "value": 1
+            "value": 1.5
         },
         {
             "id": 5,

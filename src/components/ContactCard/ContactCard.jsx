@@ -1,14 +1,14 @@
 import './ContactCard.css'
 import Widget from '../Widget/Widget'
 
-const ContactCard = ({icon , value}) => {
+const ContactCard = ({ icon, value, children }) => {
     return (
         <Widget className='box-content'>
             <div className='box-label'>
                 {icon}
             </div>
             <div className='box-value'>
-                {value}
+                {children || value}
             </div>
         </Widget>
     )

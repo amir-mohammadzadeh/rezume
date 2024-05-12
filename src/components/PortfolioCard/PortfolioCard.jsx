@@ -8,7 +8,7 @@ const PortfolioCard = ({ title, languages, discription, linke, sorscode,image })
     return (
         <div className="Card_content">
             <div className="Portfolio_image">
-                <img src={`/portfolios_image/${image}`} alt="" />
+                <img src={`/portfolios_image/${image}`} loading='ert' alt="" />
             </div>
             <div className="Portfolio-details">
                 <h3>

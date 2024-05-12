@@ -49,7 +49,7 @@ const Navigation = () => {
         </div>
 
         <div className="nav-2">
-          <a href='/amir.cv/AmirMohammadzadeh_cv.pdf' download='Amir-Mohammadzadeh_CV' className='navbar-icon'  >
+          <a href='vercel/AmirMohammadzadeh_cv.pdf' download='Amir-Mohammadzadeh_CV' className='navbar-icon'  >
             <DownloadIcon />
             <span className="link-label">
               دانلود رزومه
